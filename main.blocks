@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="bMj@t08xHq1E1CPMx@/(">Player</variable><variable type="KIND_SpriteKind" id="[5Y?]AHh`R~aau*m_-s$">Projectile</variable><variable type="KIND_SpriteKind" id="ZdE#ixq[!#-fR%!#.))C">Food</variable><variable type="KIND_SpriteKind" id="oK{JAS/S;;])[vh-%2Ea">Enemy</variable><variable id="]SKIxvh5AlnxbS4oz$@:">RiggedyRunner</variable><variable id="_b$TH7S4nQv~YoOc}VUl">mySprite</variable></variables><block type="pxt-on-start" id="+LOED[BQxOt#I)[qoLMQ" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="a[QQMR1*G{n|YUB-bMyl"><field name="VAR" id="]SKIxvh5AlnxbS4oz$@:">RiggedyRunner</field><value name="VALUE"><shadow type="math_number" id="!pr6=${Z#vp$n7!(4QMB"><field name="NUM">0</field></shadow><block type="spritescreate" id=":B|a/_+?}N#I|R~TkPY9"><value name="img"><shadow type="screen_image_picker" id="WV=J.z(tN!)D4]x|HdFY"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . 9 9 9 9 9 9 . . . . . 
+. . . . . 9 1 1 1 1 1 . . . . . 
+. . . . . 9 1 1 1 f f . . . . . 
+. . . . . 9 1 1 1 f f . . . . . 
+. . . . . 9 1 1 1 1 1 . . . . . 
+. . . . . 9 9 9 9 9 9 . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="Qo_f-s6OagOj)UY2)OiN"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="T*_Yt$.f=5MFP}.[n`fV"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="Z|R~vb/DTbWK{8dH0)Bk"><field name="VAR" id="]SKIxvh5AlnxbS4oz$@:">RiggedyRunner</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="^d5[lA5Ysn{zU?rxesdW"><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="Vykwin``mK%B%;yvm9Y*"><field name="speed">100</field></shadow></value><next><block type="camerafollow" id="2)j(a#sLa7`QC!dB(]{)"><value name="sprite"><block type="variables_get" id="b2yv[/dsZY#,!rPzUHe:"><field name="VAR" id="]SKIxvh5AlnxbS4oz$@:">RiggedyRunner</field></block></value></block></next></block></next></block></statement></block></xml>
